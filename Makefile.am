@@ -367,6 +367,12 @@ src_libdrivers_la_SOURCES += \
 	src/hardware/hantek-dso/protocol.c \
 	src/hardware/hantek-dso/api.c
 endif
+if HW_HP_16500B
+src_libdrivers_la_SOURCES += \
+	src/hardware/hp-16500b/protocol.h \
+	src/hardware/hp-16500b/protocol.c \
+	src/hardware/hp-16500b/api.c
+endif
 if HW_HP_3457A
 src_libdrivers_la_SOURCES += \
 	src/hardware/hp-3457a/protocol.h \
