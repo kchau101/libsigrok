@@ -83,6 +83,7 @@ G_GNUC_END_IGNORE_DEPRECATIONS
 #include <vector>
 #include <map>
 #include <set>
+#include <functional>
 
 namespace sigrok
 {
